@@ -181,6 +181,7 @@ hr {
 
 
 .content {
+	font-size: 1em;
 	text-align: left;
 	width: 620px;
 	padding: 0 0 0 5px;
@@ -226,14 +227,16 @@ hr {
 }
 
 .info_film_page .label {
-
-	font-size: 1.2em;
+	color: #483d8b;
+	font-size: 1em;
 }
 
 .info_film_page .value {
 	font-size: 1em;
-	color: #49945a;
+	font-style: italic;
+	color: #555;
 	margin-right: 3%;
+	margin-left: 3%;
 }
 
 .descriptions_film {
@@ -285,10 +288,14 @@ hr {
  }
 
   .send input[type="submit"]{
-  	background-color: green;
+  	background-color: #483d8b;
   	padding-bottom: 3%;
   	color: white;
   	border-radius: 5px;
+  }
+
+  .send input[type="submit"]:hover {
+  	
   }
 
 
@@ -333,6 +340,10 @@ hr {
 	color: white;
 }
 
+.button:hover {
+	background-color: #523686;
+	cursor: pointer;
+}
 
 table {
 	width: 100%;
@@ -383,11 +394,100 @@ td img {
 	padding: 0 0 10px 0;
 }
 
+/*CSS Mobile*/
+@media only screen
+and (min-device-width:320px)
+and (max-device-width :568px) {
 
+	.header {
+		background-color: #257965;
+		min-width: 100%;
+		height: 20%;
+		text-align: center;
+}
 
+.logo {
+	width: 100%;
+}
 
+.site_content {
+	width: 100%;
+}
+.menubar {
+	width: 100%;
+	height: 100%;
+}
 
+.content {
+	width: 100%;
+	text-align: center;
+}
+.side_content {
+	width: 100%;
+	text-align: center;
+}
 
+.sidebar_container {
+	display: none;
+}
+
+.footer {
+	display: none;
+}
+
+ul.menu {
+	float: none;
+}
+
+ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+
+.logo h1 {
+	font: normal 235% 'century gothic', arial, sans-serif; 
+}
+.logo h2 {
+	font: normal 100% 'century gothic', arial, sans-serif;
+}
+
+.content h1, h2 {
+	font: normal 110% 'century gothic', arial;
+}
+.center {
+	font-style: 'century gothic';
+	font-color:#483d8b;
+}
+
+.films_block img {
+	width: 43%;
+}
+
+.post_content p {
+	line-height: 1.5em;
+	padding: 3%;
+	text-align: left;
+}
+
+.posts p {
+	font-size: 120%;
+}
+
+/*films page*/
+.info_film {
+	float: none;
+	height: 100%;
+}
+
+.info_film img {
+	width: 90%;
+	margin-bottom: 5%;
+}
+
+.button {
+	float: none;
+}
 
 
 
