@@ -27,6 +27,7 @@ input, textarea {
 }
 
 h1, h2 {
+	text-align: center;
 	font: normal 170% 'century gothic', arial;
 	margin: 0 0 15px 0;
 	padding: 15px 0 5px 0;
@@ -54,16 +55,16 @@ ul li {
 
 
 
-.header {
+header {
 	background-color: darkslateblue;
-	height: 177px;
+	height: 185px;
 	font-size: 0.8em;
 	margin-left: 0px;
 	margin-right: 0px;
 	min-width: 900px;
 }
 
-.main, .logo, .menubar,.site_content, .footer {
+main, .logo, nav,.site_content, footer {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -78,7 +79,7 @@ ul li {
 	margin:0 0 0 9px; 
 }
 
->.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
 	padding: 22px 0 0 0;
 	color: #fff;
 	letter-spacing: 0.1em;
@@ -86,18 +87,19 @@ ul li {
 }
 
 .logo_text h2 {
-	font-size: 0.9em;
+	font-size: 1.5em;
 	padding: 4px 0 0 0;
 	color: #999; 
 }
 
-.menubar {
+nav {
 	width: 900px;
-	height: 46px;
+	height: 500px;
 }
 
 ul.menu {
-	float: right;
+	text-align: center;
+	float: left;
 }
 
 ul.menu li {
@@ -135,7 +137,7 @@ hr {
 	background-color: white;
 }
 
-.sidebar_container {
+aside {
 	float: right;
 	width: 224px;
 }
@@ -180,7 +182,7 @@ hr {
 }
 
 
-.content {
+section {
 	font-size: 1em;
 	text-align: left;
 	width: 620px;
@@ -188,8 +190,13 @@ hr {
 	float: left;
 }
 
-.content a {
+section a {
 	text-decoration: none;
+}
+
+th {
+	font: normal 140% 'century gothic', arial;
+	color: darkslateblue;
 }
 
 .films_block {
@@ -289,7 +296,7 @@ hr {
 
   .send input[type="submit"]{
   	background-color: #483d8b;
-  	padding-bottom: 3%;
+  	padding: 3%;
   	color: white;
   	border-radius: 5px;
   }
@@ -368,7 +375,7 @@ td img {
 	font-weight: bold;
 }
 
-.footer {
+footer {
 	width: 100%;
 	height: 100px;
 	padding: 28px 0 5px 0;
@@ -380,17 +387,17 @@ td img {
 	min-width: 900px;
 }
 
-.footer a {
+footer a {
 	color: #a8aa94;
 	text-decoration: none;
 }
 
-.footer a:hover {
+footer a:hover {
 	color: #fff;
 	text-decoration: none;
 }
 
-.footer p {
+footer p {
 	padding: 0 0 10px 0;
 }
 
@@ -399,11 +406,11 @@ td img {
 and (min-device-width:320px)
 and (max-device-width :568px) {
 
-	.header {
-		background-color: #257965;
-		min-width: 100%;
-		height: 20%;
-		text-align: center;
+header {
+	background-color: #257965;
+	min-width: 100%;
+	height: 20%;
+	text-align: center;
 }
 
 .logo {
@@ -413,12 +420,12 @@ and (max-device-width :568px) {
 .site_content {
 	width: 100%;
 }
-.menubar {
+nav {
 	width: 100%;
 	height: 100%;
 }
 
-.content {
+section {
 	width: 100%;
 	text-align: center;
 }
@@ -427,11 +434,11 @@ and (max-device-width :568px) {
 	text-align: center;
 }
 
-.sidebar_container {
+aside {
 	display: none;
 }
 
-.footer {
+footer {
 	display: none;
 }
 
