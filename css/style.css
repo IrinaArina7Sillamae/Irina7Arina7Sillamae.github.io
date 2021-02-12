@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+	font: normal 150% 'century gothic', arial;
+	margin-top: 100px;
+	
+	
+
+	background: url("../img/digi.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	color: #fff;
+}
+
+header {
+	font-size: 30px;
+	border-bottom: 2px solid #fff;
+}
+
+.link {
+	margin-bottom: 15px;
+}
+
+.link a {
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+}
+
+.link:hover a {
+	text-decoration-style: solid; 
+	text-decoration-line: underline;
+	text-decoration-color: #fff;
+
+}
+
+footer {
+
+	margin-top:370px;
+	font-color: #fff;
+}
+
+footer a {
+	padding: 0 50px 0 50px;
+	text-decoration: none;
+	font-color: #fff;
+}
+
+a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: 0;
+}
+footer:hover a{
+	text-decoration-style: solid; 
+	text-decoration-line: underline;
+	text-decoration-color: #fff;
+
+}
