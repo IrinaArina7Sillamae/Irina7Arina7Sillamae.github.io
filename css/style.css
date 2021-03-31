@@ -68,3 +68,22 @@ footer:hover a{
 	text-decoration-color: #fff;
 
 }
+
+.sidebar {
+	float: left;
+	width: 400px;
+	height: 250px;
+	padding: 1%;
+	margin: 0 0 16px 0;
+	border: solid 1px #fff;
+	border-radius: 5px;	
+}
+
+.hr {
+	color: #fff;
+	border: solid 1px #fff;
+}
+
+.title {
+	margin-top: 20px;
+}
