@@ -165,8 +165,9 @@ footer a:hover {
 	color: #efefef;
 }
 
-
-
+.a a:hover {
+	color: #fff;
+}
 
 
 
