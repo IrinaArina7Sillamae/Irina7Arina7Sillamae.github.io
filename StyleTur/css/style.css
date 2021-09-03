@@ -9,6 +9,7 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
 	position: relative;
 	width: 1140px;
@@ -508,7 +509,7 @@ a: hover {
 
 .reserv {
 	position: relative;
-	width: 800px;
+	/*width: 800px;*/
 	height: 800px;
 	left:0;
 	padding: 39px 0 62px 0;
@@ -520,11 +521,11 @@ a: hover {
 .reserv_bg {
 	position: relative;
 	top: -40px;
-	right: -682px;
+	right: -410px;
 	width: 700px;
 	height: 670px;
 
-	opacity: 0.6;
+	opacity: 0.75;
 	z-index: -1;
 }
 
@@ -562,7 +563,7 @@ a: hover {
 	left: 50px;
 	width: 700px;
 	height: 500px;
-	/*background-color: #c4c4c4;*/
+	background-color: #c4c4c4;
 	border-radius: 10px;
 	opacity: 0.6;
 }
@@ -610,7 +611,8 @@ textarea {
 
 .footer {
 	margin-top: -45px;
-	margin-right: -547px;
+	margin-right: -275px;
+	margin-left: -300px;
 	height: 140px;
 	background-color: #827F7F;
 }
