@@ -1,7 +1,7 @@
 body{
 	text-align: center;
 	font-family: normal 150% 'century gothic', arial;
-	margin-top: 100px;
+	margin-top: 50px;
 	
 	
 
@@ -71,19 +71,16 @@ footer:hover a{
 
 .sidebar {
 	float: left;
-	width: 400px;
-	height: 250px;
+	width: 350px;
+	height: 270px;
 	padding: 1%;
 	margin: 0 0 16px 0;
 	border: solid 1px #fff;
 	border-radius: 5px;	
 }
 
-.hr {
-	color: #fff;
-	border: solid 1px #fff;
-}
 
 .title {
-	margin-top: 20px;
+	margin-top: 10px;
+	border-bottom: 2px solid #fff;
 }
