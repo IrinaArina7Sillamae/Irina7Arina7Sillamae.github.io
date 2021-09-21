@@ -227,7 +227,7 @@ html {
 .about_Us_content {
 	position: absolute;
 	top: 270px;
-	left: -100px;
+	left: -200px;
 }
 
 
@@ -291,7 +291,7 @@ html {
 
 .wood_house_logo {
 	position: absolute;
-	left: -100px;
+	left: -200px;
 	top: 30px;
 
 }
@@ -299,7 +299,7 @@ html {
 	position: absolute;
 	
 	top: 170px;
-	left: -100px;
+	left: -200px;
 }
 
 .wood_house_divider {
@@ -354,7 +354,7 @@ html {
 
 .wood_house_list_list {
 	width: 500px;
-	margin-right: 0;
+	margin-right: 0px;
 
 	font-family: Montserrat Alternates, sans-serif; 
 	font-size: 28px;
@@ -387,7 +387,7 @@ html {
 .services_content {
 	position: absolute;
 	
-	left: -200px;
+	left: -400px;
 }
 
 .services_logo {
@@ -411,7 +411,7 @@ html {
 }
 
 
-.services_text_fon, .services_text_fon {
+.services_text_fon {
 	width: 700px;
 	height: 350px;
 
@@ -477,13 +477,13 @@ html {
 .arenda_content {
 	position: absolute;
 	
-	left: -200px;
+	left: -350px;
 }
 
 .arenda_logo {
 	position: absolute;
 	
-	right: 100px;
+	right: 200px;
 	top: 20px;
 	}
 
@@ -567,7 +567,7 @@ html {
 .project_content {
 	position: absolute;
 	
-	left: -200px;
+	left: -350px;
 }
 
 .project_logo {
