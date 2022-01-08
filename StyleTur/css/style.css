@@ -18,15 +18,15 @@ html {
 
 .promo {
 	height: 800px;
-	background: url("../img/bg/milan.png") center center/cover no-repeat;
+	background: url("../img/bg/2.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 60px;
-	margin-bottom:60px; 
+	margin: 60px 100px 60px 100px;
+	 
 	
 }
 
@@ -38,20 +38,20 @@ html {
 	font-size: 24px;
 	
 	color: #FFFFFF;
-	text-shadow: 0px 4px 0px #000000;
+	text-shadow: 1px 2px 1px #000000;
 }
 
 .logo {
 	position: absolute;
 	top: -20px;
-	left: -200px;
+	left: -50px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
 
 	color: #FFFFFF;
-	text-shadow: 1px 3px 0px #000000;
+	text-shadow: 1px 3px 1px #000000;
 }
 
 h1 {
@@ -65,7 +65,7 @@ h1 {
 	text-align: center;
 	/* identical to box height */
 	color: #FFFFFF;
-	text-shadow: 2px 5px 2px #000;
+	text-shadow: 2px 4px 2px #000;
 }
 
 h2.title {
@@ -75,7 +75,7 @@ h2.title {
 	text-align: center;
 
 	color: #F27C0F;
-	text-shadow: 1px 3px 1px #000000;
+	text-shadow: 1px 2px 1px #000000;
 }
 
 .promo .promo_text {
@@ -116,7 +116,7 @@ h2.title {
 	position: relative;
 	margin-top: 0;
 	height: 800px;
-	background: url("../img/bg/b_g.png") center center/cover no-repeat;
+	background: url("../img/bg/b_g.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 	background-color: rgba(0, 0, 0, 0.18);
 	z-index: -5;
@@ -166,7 +166,9 @@ h2.title {
 	/*z-index: 2;*/
 }
 
-img {
+.visit_img {
+	width: 330px;
+	height: 250px;
 	border-radius: 5px;
 }
 
@@ -188,20 +190,9 @@ img {
 	margin-top: 20px;
 	margin-bottom: 0;
 	left: 100px;
-
 }
 
-.border_item_1, .border_item_2, .border_item_3 {
-	width: 330px;
-	height: 250px;
-	/*margin: 5px auto 5px;*/
-	border: solid 5px #F27C0F;
-	filter: drop-shadow(0px 2px 2px #534E4E);
-	border-radius: 5px;
-
-}
-
-.border_item_4, .border_item_5, .border_item_6 {
+.border_item_1, .border_item_2, .border_item_3, .border_item_4, .border_item_5, .border_item_6 {
 	width: 330px;
 	height: 250px;
 	/*margin: 5px auto 5px;*/
@@ -209,7 +200,6 @@ img {
 	filter: drop-shadow(0px 2px 2px #534E4E);
 	border-radius: 5px;
 }
-
 
 .border_item_1{
 	position: absolute;
@@ -258,11 +248,14 @@ img {
 	top: -260px;
 	z-index: -1;
 }
-
 .duomo {
 	height: 800px;
-	background: url("../img/bg/duomo.png") center center/cover no-repeat;
+	background: url("../img/bg/duomo.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
+}
+
+.duomo_content {
+	left: o;
 }
 
 .duomo_text, .gallery_text, .la_scala_text, .santa_maria_text, .brera_text, .navilo_grand_text {
@@ -275,7 +268,7 @@ img {
 	padding-left: 50px;
 	padding-right: 40px;
 	background-color: #FFF;
-	opacity: 0.6;
+	opacity: 0.8;
 	border-radius: 5px;font-family: Roboto;
 
 	font-family: Roboto;
@@ -310,7 +303,7 @@ img {
 .duomo_link_read, .gallery_link_read, .la_scala_link_read, .santa_maria_link_read, .brera_link_read, .navilo_grand_link_read {
 	position: relative;
 	top: 90px;
-	left: 210px;
+	left: 250px;
 	font-family: Roboto;
 	color: #F27C0F;
 	font-size: 18px;
@@ -318,37 +311,37 @@ img {
 
 }
 
-a: hover {
-	background: #FFF;
+a :hover {
+	color: #fff;
 }
 
 .gallery {
 	height: 800px;
-	background: url("../img/bg/gallery.png") center center/cover no-repeat;
+	background: url("../img/bg/gallery.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .la_scala {
 	height: 800px;
-	background: url("../img/bg/la_scala.png") center center/cover no-repeat;
+	background: url("../img/bg/la_scala.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .santa_maria {
 	height: 800px;
-	background: url("../img/bg/santa_maria.png") center center/cover no-repeat;
+	background: url("../img/bg/santa_maria.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .brera {
 	height: 800px;
-	background: url("../img/bg/brera.png") center center/cover no-repeat;
+	background: url("../img/bg/brera.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .navilo_grand {
 	height: 800px;
-	background: url("../img/bg/navilo_grand.png") center center/cover no-repeat;
+	background: url("../img/bg/navilo_grand.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
@@ -368,7 +361,7 @@ a: hover {
 	text-align: center;
 
 	color: #F27C0F;
-	text-shadow: 1px 1px 1px #B15B0A;
+	text-shadow: 1px 1px 1px #613206;
 }
 
  .offers_wrapper {
@@ -390,9 +383,10 @@ a: hover {
 
 .offers_img {
 	margin-top: 15px;
+	width: 300px;
 }
 
-.offers_Dubai, .offers_Paris, .offers_Istanbul {
+.offers_text {
 	margin-top: 40px;
 	font-family: Roboto;
 	font-size: 24px;
@@ -401,7 +395,7 @@ a: hover {
 
 	color: #F27C0F;
 
-	text-shadow: 1px 1px 1px #B15B0A;
+	text-shadow: 1px 1px 1px #613206;
 }
 
 .offers_btn {
@@ -431,7 +425,7 @@ a: hover {
 .offers_link_main, .invite_link_main {
 	position: relative;
 	top: -180px;
-	left: -220px;
+	left: -170px;
 	font-family: Roboto;
 	color: #F27C0F;
 	font-size: 18px;
@@ -440,23 +434,21 @@ a: hover {
 }
 
 .invite {
-	height: 650px;
-	background: url("../img/bg/relax.png") center center/cover no-repeat;
+	height: 800px;
+	background: url("../img/bg/relax.jpg") center center/cover no-repeat;
 	padding: 39px 0 62px 0;
 }
 
 .invite_title {
 	position: relative;
-	left: -30px;
-	width: 1250px;
-	margin-bottom: 0 auto 0 auto;
- 	font-family: Roboto;
-	font-style: normal;
+	text-align: center;
+	margin: 100px auto 0 auto;
+	font-family: Roboto Condensed;
 	font-weight: 500;
-	font-size: 48px;
+	font-size: 44px;
 	line-height: 84px;
 	color: #FFF;
-	text-shadow: 1px 2px 1px #827F7F;
+	text-shadow: 1px 2px 1px #100736;
 
 
 }
@@ -468,16 +460,15 @@ a: hover {
 	text-align: center;
 
 	color: #FFF;
-	text-shadow: 1px 2px 1px #827F7F;
+	text-shadow: 1px 2px 1px #100736;
 }
 
 .invite_round {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 70px auto 20px auto;
-	width: 150px;
-	height: 150px;
+	margin: 100px auto 20px auto;
+	width: 2px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px #377FBA;
 	border-radius: 100%;
@@ -490,8 +481,13 @@ a: hover {
 }
 
 .invite_item {
-	width: 330px;
+	width: 250px;
 }
+.invite_icon {
+	width: 150px;
+	height: 150px;
+}
+
 
 .invite_descr {
 	margin-top: 0;
@@ -504,75 +500,67 @@ a: hover {
 
 	color: #FFFFFF;
 
-	text-shadow: 1px 2px 1p.x #827F7F;
+	text-shadow: 1px 2px 1px #100736;
 }
 
 .reserv {
 	position: relative;
-	/*width: 800px;*/
 	height: 800px;
 	left:0;
 	padding: 39px 0 62px 0;
-	background-color: #E8CDC4;
-	z-index: -2;
-	
-}
-
-.reserv_bg {
-	position: relative;
-	top: -40px;
-	right: -410px;
-	width: 700px;
-	height: 670px;
-
-	opacity: 0.75;
-	z-index: -1;
+	background: url("../img/bg/relax1.jpg") center center/cover no-repeat;	
 }
 
 .reserv_title {
 	position: absolute;
-	top: -80px;
+	top: -700px;
 	left: 50px;
  	font-family: Roboto;
 	font-weight: 500;
 	font-size: 48px;
 
 	color: #F27C0F;
-	text-shadow: 0px 4px 4px #B15B0A;
+	text-shadow: 2px 3px 2px #552b03;
 }
 .reserv_subtitle, .reserv_subtitle_2 {
 	position: absolute;
-	top: 35px; 
 	left: 50px;
 	font-family: Roboto Condensed;
 	font-size: 20px;
 	
 	color: #F27C0F;
-	text-shadow: 0px 1px 1px #8C4B0F;
+	text-shadow: 1px 2px 1px #552b03;
 }
 
+.reserv_subtitle {
+	top:-580px; 
+}
 .reserv_subtitle_2 {
-	position: absolute;
-	top:70px; 
-	left: 50px;
+	top:-550px; 
 }
 
 .reserv_data {
 	position: absolute;
-	top: 125px;
+	top: -510px;
 	left: 50px;
 	width: 700px;
 	height: 500px;
 	background-color: #c4c4c4;
 	border-radius: 10px;
-	opacity: 0.6;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+.form-control {
+	font-family: Roboto Condensed;
+	font-style: bolder;
 }
 
 input, textarea {
 	margin: 20px 0 0 40px;
 	width: 620px;
 	height: 55px;
-	color: : #000000;
+	color:  #000000;
 	border: 1px solid #827F7F;
 	border-radius: 10px;
 	padding: 0 0 0 10px;
@@ -610,14 +598,14 @@ textarea {
 }
 
 .footer {
-	margin-top: -45px;
+	margin-top: 630px;
 	margin-right: -275px;
 	margin-left: -300px;
 	height: 140px;
-	background-color: #827F7F;
 }
 
  .footer_wrapper {
+	margin: 0 300px;
 	display: flex;
 	justify-content:space-between;
 }
@@ -634,6 +622,13 @@ textarea {
 	text-shadow: 1px 2px 1px #000000;
 }
 
+.visit_item, .logo, .visit_item, .offers_item, .invite_item, .visit_wrapper, .title_big, .end {
+	transition: transform .5s; 
+ }
+ .visit_item:hover, .logo:hover, .visit_item:hover, .offers_item:hover, .invite_item:hover, 
+ .visit_wrapper:hover, .title_big:hover, .end:hover {
+	transform: scale(1.2);
+  }
 
 
 
